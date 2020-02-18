@@ -1,0 +1,1000 @@
+body {
+	background-color: #fff;
+	color: #000;
+	margin: 8px 3%;
+	font-size: 95%;
+	font-family: Arial, Helvetica, "DejaVu Sans", sans-serif;
+}
+
+h1 {
+	font-family: "DejaVu Serif", Arial, sans-serif
+}
+
+small {
+	font-size: .8em;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+td {
+	line-height: 1.3em;
+}
+
+a:link  {
+	color: #11c;
+}
+
+a:visited  {
+	color: #551A8B;
+}
+
+a:link:active,
+a:visited:active  {
+	color: red;
+}
+
+a.readonly
+{
+	color: red;
+	text-decoration: line-through;
+}
+
+#recommend header .topHeader {
+    background-color: purple !important;
+}
+
+#recommend {
+    background: url("https://outducks.org/images/background.jpg") #08153a;
+    color: #fff;
+}
+
+#recommend a:link {
+    color: #f6f;
+}
+
+#recommend a:visited {
+    color: #0cf;
+}
+
+#recommend a:link:active,
+#recommend a:visited:active  {
+    color: red;
+}
+
+a {
+   text-decoration: none;
+}
+
+/* latest clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+pre.cvsdiff {
+  overflow-x: auto;
+}
+
+.outerTable {
+	padding: 1px;
+	margin: 2px;
+	border: 0;
+}
+
+.innerTable {
+	white-space: nowrap;
+}
+
+.innerTable td {
+	padding: 4px;
+	text-align: left;
+}
+
+.searchBoxes {
+	float: left;
+	width: 50%;
+	min-width: 290px;
+}
+
+#home .search {
+	font-size: 100%;
+	padding: 10px 4px;
+	margin: 10px 0;
+	background-color: #e8e8e6;
+	position: relative;
+	float: left;
+	width: 99%;
+	max-width: 600px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.3); /* last parameter is opacity */
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+	box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+}
+
+#home .search label {
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+	float: left;
+	margin: 5px;
+	height: 42px;
+}
+
+#home .search label input {
+	float: left;
+	width: 143px;
+}
+
+#home .search .pages input{
+	width: 60px;
+}
+
+#home .search .issueNumber input{
+	width: 70px;
+}
+
+#home .search select {
+	width: 140px;
+}
+
+.search .controls {
+	float: left;
+	width: 170px;
+	margin-top: 24px;
+}
+
+#issueSearch .controls {
+	width: auto;
+	margin-bottom: 10px;
+}
+
+.advancedSearch {
+	float: left;
+	font-size: .8em;
+	clear: both;
+	white-space: nowrap;
+	margin: 5px 0 0 5px;
+}
+
+.tips {
+	font-size: .8em;
+	font-weight: normal;
+	text-shadow: 0;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+div.user {
+	font-size: 1em;
+	border: 1px solid #fff;
+	padding: 4px;
+	background: #f0f0df;
+}
+
+div.exergue {
+	font-size: 1em;
+	border: 1px solid #736F6e;
+	padding: 4px;
+	background: #f0f0ed;
+}
+
+/* this font is used for technical lists, meant for VIPs or advanced users */
+.thinbordertab {
+	font-size: 12px;
+	color: #666;
+	border: 1px #666 solid;
+}
+
+table.thinbordertab td {
+	border: 1px #666 solid;
+}
+
+.thinbordertab0 {
+	font-size: 15px;
+	color: #666;
+	border: 1px #666 solid;
+}
+
+.post {
+	border-bottom: 1px dashed #736F6e;
+}
+
+.rightalign {
+         float:right;
+}
+
+.newlyAdded {
+	width: 100%;
+	overflow: hidden;
+}
+
+.newlyAdded h2,
+.newlyAdded p {
+	display: inline;
+	overflow: hidden;
+	white-space: normal;
+}
+
+.newlyAdded h2 {
+	margin-right: 5px;
+	font-size: 1em;
+}
+
+.newlyAdded h2:after {
+	content: ": ";
+}
+
+.nav {
+	margin: 5px 0;
+}
+
+.navBottom {
+        margin: 5px 0;
+        float: left;
+	font-size: 80%;
+}
+
+.centralSection {
+	width: 100%;
+}
+
+.listOfLinks {
+	float: left;
+	list-style: none;
+	font-size: .8em;
+	line-height: 1.5em;
+	padding: 0;
+	margin: 10px 0;
+	width: 49%;
+	min-width: 290px;
+}
+
+.listOfLinks li {
+	margin-left: 20px;
+}
+
+#home .footer {
+	float: left;
+	border-bottom: 1px solid gray;
+	clear: both;
+}
+
+.contactInfo {
+	float: left;
+	width: 45%;
+	margin: 30px 5% 20px 0;
+}
+
+.translations {
+	float: right;
+	width: 45%;
+	margin: 30px 0 20px 5%;
+}
+
+.licence {
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 5px 0 20px;
+}
+
+h3:target,
+h3:target + p {
+	background-color: #cfc;
+}
+
+.countryList {
+	background: url("img/inducksmap.png") 50% 50% no-repeat;
+	-moz-background-size: contain;
+	background-size: contain;
+ }
+
+.image {
+	float: left;
+	text-align: center;
+	font-size: .8em;
+	margin-right: 20px;
+}
+
+.issueInfo {
+	float: left;
+}
+
+.issueInfo .detailedInfo {
+	float: left;
+	max-width: 400px;
+}
+
+.issueInfo .navigation {
+	font-size: .8em;
+	margin: 10px 0;
+}
+
+.issueInfo .indexedBy,
+.issueInfo .nonIndexedScans  {
+	font-size: .8em;
+}
+
+.contentInfo {
+	float: left;
+	padding: 40px 0 10px;
+	clear: both;
+	width: 100%;
+}
+.contentInfo h2 {
+	float: left;
+	margin: 0;
+}
+
+.legend {
+	float: left;
+	margin: 7px 10px;
+}
+
+.imageOptions  {
+	font-size: .8em;
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+.storyEntry {
+	background-color: #cbdced;
+}
+
+.coverEntry {
+	background-color: #fc3;
+}
+
+.gagEntry {
+	background-color: #f9f;
+}
+
+.nonDisneyEntry {
+	background-color: #cc9;
+}
+
+.legend .storyEntry,
+.legend .coverEntry,
+.legend .gagEntry,
+.legend .nonDisneyEntry {
+	width: 10px;
+	margin: 0 5px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.orderBy {
+	margin: 7px 10px;
+	display: inline-block;
+}
+
+.boldtable {
+	float: left;
+	clear: both;
+}
+
+.boldtable {
+	font-size: .9em;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.searchBoxes {
+		width: 100%;
+	}
+
+	.listOfLinks {
+		clear: both;
+		width: 100%;
+	}
+}
+
+.cvseditlinks {
+	margin: 5px 0;
+	float: right;
+	font-size: 80%;
+}
+
+.warning {
+    text-align: center;
+	font-style: italic;
+    font-size: 100%;
+	width: 75%;
+    background-color: #fc3;
+}
+
+.hl0 {
+	background-color: #ff9;
+}
+
+.hl0x {
+	background-color: #7FFFD4;
+}
+
+span.modeMenu .selectedModeMenu {
+	font-weight: bolder;
+	color: #888888;
+}
+
+ul.creatorsubscription {
+	list-style-type: none;
+}
+
+div.export {
+	border-spacing: 5px;
+	border: 1px solid black;
+    padding: 10px;
+	margin: 5px;
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+
+div.exportcontainer {
+	overflow: auto;
+}
+
+div.publicationByYearList {
+	margin: 5px 0 5px 0;
+}
+
+div.publicationByYearList h2 {
+	background: #DDDDDD;
+	padding: 5px;
+	margin-bottom: 5px;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.extraPage {
+    font-weight: bold;
+    color: #888888;
+}
+
+.currentScanEntry {
+    color: black;
+    background-color: #FFFF00;
+}
+
+.existingScanForEntry {
+    color: white;
+    background-color: #87CEEB;
+}
+
+.existingScanToOverwrite {
+    color: white;
+    background-color: #FFDEAD;
+}
+
+.uploadedScans {
+    overflow: hidden;
+    width: 100%;
+}
+
+.uploadedScan {
+    margin: 10px 0px 10px 0px;
+    float: left;
+    clear: both;
+}
+
+.uploadedScan * {
+    font-size: small;
+}
+
+.uploadedMainScan {
+    display: table;
+}
+
+.uploadedMainScan img {
+    float: left;
+    height: 100%;
+}
+
+.uploadedMainScan p {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px
+}
+
+.uploadedSpecialScan {
+    margin: 5px 0px 5px 0px;
+    clear: both;
+    display: inline-block;
+}
+
+.uploadedSpecialScan p {
+    margin: 0px;
+    text-align: center;
+}
+
+/* everything from here on should be for the responsive web design for *all* screen sizes */
+
+header {
+    border: none;
+    width: 100%;
+    overflow: hidden;
+	  -moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+  	border-radius: 5px;
+  	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+	  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+  	box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+    margin-bottom: 15px;
+}
+
+header .topHeader {
+    background-color: #cbdced;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header .topHeader h1 {
+	  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+    margin: 0px;
+    vertical-align: middle;
+}
+
+header .topHeader > img {
+    float: left;
+}
+
+header .topHeader .additionalTopHeaderInformation {
+    float: right;
+    text-align: right;
+	  font-size: .8em;
+	  font-style: italic;
+}
+
+header .subHeader {
+	  background-color: #e8e8e6;
+    padding: 10px;
+}
+
+header .topHeader h1,
+header .topHeader .additionalTopHeaderInformation,
+header .subHeader {
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#newList {
+    resize: none;
+    box-sizing: border-box;
+}
+
+#sendNewReportBlock {
+    background-color: #CBDCED;
+    padding: 2px;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#sendNewReportBlock textarea {
+    resize: none;
+	width: 100%;
+}
+
+#sendNewReportBlock * {
+    box-sizing: border-box;
+}
+
+#chooseIndividualMaintainers {
+    display: table;
+    width: 100%;
+    border-spacing: 0 3px;
+}
+
+.chooseIndividualMaintainersRow {
+    display: table-row;
+    width: 100%;
+}
+
+.warningHiddenComments {
+    background-color: #FFF;
+}
+
+#reportViewInformation {
+    margin-top: 5px;
+}
+
+#numberOfReports {
+    font-style: italic;
+}
+
+#searchReports, #sortReports {
+    font-size: smaller;
+}
+
+.report {
+    background-color: #AAD8EE;
+    padding: 2px;
+}
+
+.importantReport {
+    background-color: #FF3300;
+    color: white;
+}
+
+.privateReport {
+    background-color: #cc6699;
+    color: white;
+}
+
+.reportTools {
+    background-color: #ffcc99;
+}
+
+.url {
+    font-family: courier;
+}
+
+.longUrl, .messages {
+    background-color: white;
+}
+
+.report > div, div.messages > div {
+    padding: 2px;
+}
+
+.messages {
+    padding: 0px !important;
+}
+
+.messages *, div.report > div {
+    box-sizing: border-box;
+}
+
+.messages textarea {
+    resize: none;
+}
+
+.answerMessage {
+    margin-left: 5px;
+}
+
+.vipMessage {
+    background-color: #dddddd;
+}
+
+#pageBrowsers {
+    margin-top: 5px;
+}
+
+#footerLine {
+    clear: both;
+}
+
+.fileName {
+    font-family: courier;
+}
+
+.loginForm div {
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.loginForm label {
+    word-wrap: break-word;
+}
+
+.cvsEditArea {
+  overflow-x: hidden;
+}
+
+.cvsEditArea * {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.cvsEditArea .input {
+    height: 400px;
+    position: relative;
+    border: 1px;
+    border-style: inset;
+}
+
+.cvsEditArea .edit, .cvsEditArea .highlight, .cvsEditArea .colorLegend {
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.cvsEditArea .edit, .cvsEditArea .highlight {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.cvsEditArea .edit, .cvsEditArea .highlight, .cvsEditArea .downdrop {
+    overflow-x: hidden;
+}
+
+.cvsEditArea .edit {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    margin: 0;
+    border-radius: 0;
+    resize: none;
+}
+
+.cvsEditArea .highlight {
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.cvsEditArea .backdrop {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.cvsEditArea div.highlighting {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cvsEditArea .downdrop {
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.cvsEditArea .colorLegend {
+    width: 100%;
+    font-style: oblique;
+    user-select: none;
+}
+
+.itemNavigation {
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.loginForm ul,
+.itemNavigation ul,
+.userActions ul,
+.publicationCountries ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.loginForm li,
+.itemNavigation li,
+.userActions li,
+.publicationCountries li {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.loginForm li + li:before,
+.itemNavigation li + li:before,
+.userActions li + li:before,
+.publicationCountries li + li:before {
+    content: " | ";
+}
+
+.originComment {
+    font-style: oblique;
+}
+
+.story {
+    /*  This number neutralizes the margin for top elements,
+     *  but leaves margins on other places intact (to have
+     *  margins between elemets, for example.
+     */
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+
+.generalStoryInformation > *,
+.characterPortraits,
+.storyImageHighlights > *,
+.storyVersions,
+.storyPublications,
+.scanList,
+.errorList > * {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.storyProperties dt, dd {
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+.differentCode strong {
+    font-weight: normal;
+}
+
+.errorAnnouncement {
+    font-style: oblique;
+}
+
+.scan {
+    max-width: 100%;
+}
+
+.scan figure {
+    padding: 0px;
+    margin: 10px;
+    display: table;
+    text-align: center;
+}
+
+.scan figure figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-size: small;
+    text-align: center;
+}
+
+.scan figure img {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.subStoryInformation ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.descriptions td.language {
+    vertical-align: top;
+    padding-right: 0.5em;
+}
+
+.characterPortraits img {
+    max-width: 100%;
+}
+
+.storyVersions thead th {
+    background-color: #CCCCCC;
+}
+
+.storyPublications .storyPublicationsHeader {
+    background-color: #ffcc33;
+    padding: 15px;
+    font-size: 0.8em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.storyPublications .storyPublicationsHeader h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+}
+
+.storyPublications .storyPublicationsHeader .publicationInformation * {
+    display: inline;
+}
+
+.storyPublications h3 {
+    background-color: #cbdced;
+    margin: 10px 0px;
+    padding: 2px;
+}
+
+.storyPublications > p {
+    margin: 10px 0px 0px 0px;
+}
+
+.storyPublications ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.storyPublications > ul > li {
+    padding-left: 5px;
+}
+
+.storyPublications ol {
+    list-style-type: disc;
+}
+
+.collectedIssue {
+    color: #666666;
+    font-size: 0.9em;
+}
+
+.scanList .scan {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.showAllScans {
+    display: block;
+}
+
+.COAzillaReports {
+    font-size: 1.1em;
+}
+
+.COAzillaReports p {
+    background-color: #CCCCCC;
+    margin: 0px;
+    padding: 2px;
+}
+
+.COAzillaReports ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8em;
+}
+
+.COAzillaReports ul > li {
+    margin: 5px 0px 5px 5px;
+}
+
+.DIZNIMessages {
+    width: 100%;
+    font-size: 1.1em;
+}
+
+.DIZNIMessages caption,
+.DIZNIMessages th {
+    background-color: #F3E2A9;
+}
+
+.DIZNIMessages caption {
+    text-align: left;
+    font-weight: normal;
+    margin: 0px;
+    padding: 2px;
+}
+
+.DIZNIMessages td {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9em;
+}
+
+.verticalTable caption {
+    font-weight: bold;
+}
+
+.verticalTable thead th,
+.verticalTable tbody td {
+    text-align: left;
+}
+
+.verticalTable thead th {
+    padding: 2px;
+}
+
+.cvsHistory tbody th {
+    font-weight: normal;
+}
+
+table.cvsHistory,
+.cvsHistory td {
+    padding: 5px;
+}
